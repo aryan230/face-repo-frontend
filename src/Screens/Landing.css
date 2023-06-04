@@ -1,0 +1,54 @@
+.landing-page {
+  width: 100vw;
+  height: 80vh;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+  color: white;
+}
+
+h2.nav-element {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s all;
+}
+
+h2.nav-element:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.connected {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.inside-connected {
+  display: flex;
+  color: rgb(71, 227, 255);
+  border: 1px solid rgb(71, 227, 255);
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.connected-text {
+  margin-left: 5px;
+  font-weight: 400;
+}
+
+.logs {
+  width: 80%;
+  margin: 0 auto;
+}

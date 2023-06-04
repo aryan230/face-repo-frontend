@@ -1,0 +1,26 @@
+.main-home {
+  width: 100vw;
+  height: 80vh;
+}
+
+.home-links {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 1rem;
+  padding: 1rem 5rem;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.479);
+}
+
+.home-inside {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
